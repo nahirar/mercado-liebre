@@ -1,0 +1,61 @@
+header {
+    background-color: #EAC926;
+}
+p {
+    font-family: "Roboto";
+    font-size: 12px
+}
+section {
+    font-family: "Roboto"
+}
+a {
+    font-family: "Roboto";
+    text-decoration: none;
+    color: #000000
+}
+section#parrafo h3 {
+    font-size: 24px
+}
+
+#precio {
+    font-size: 18px
+}
+
+#descripcion, #descuento{
+    font-size: 16px
+}
+.fa-hand-holding-usd {
+    padding: 15px
+}
+
+footer {
+    text-align: center;
+}
+#copy-right {
+    text-align: left
+}
+.fa-user-shield, .fa-gift, .fa-credit-card{
+    size: 2em
+}
+.burger-menu {
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    font-size: 50px;
+    color: white;
+    background-color: #1259c3;
+    
+}
+#banner {
+    background-size: 100vw auto;
+}
+.fa-search{
+    background-color: white;
+}
+.fa-hand-holding-usd{
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    size: 50px;
+
+}
