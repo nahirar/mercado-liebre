@@ -38,18 +38,25 @@ footer {
     size: 2em
 }
 .burger-menu {
+    color: white; 
     margin: auto;
-    width: 10px;
-    height: 10px;
+    width: 70px;
+    height: 70px;
     font-size: 50px;
-    color: white;
+    padding: 5px;
     background-color: #1259c3;
-    
+    text-align: center;
+    border-radius: 5px;  
 }
 #banner {
     background-size: 100vw auto;
 }
 .fa-search{
+    background-size: 20px;
+    width: 23px;
+    font-size: 10px;
+    padding: 5px 5px 3px;
+    margin-left: 0.8em;
     background-color: white;
 }
 .fa-hand-holding-usd{
@@ -59,3 +66,9 @@ footer {
     size: 50px;
 
 }
+#Buscador {
+    background-size: 24px;
+    width: 300px;
+    padding: 5px 5px 3px;
+    margin-left: 0.8em;
+  }
