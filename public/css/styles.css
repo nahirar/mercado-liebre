@@ -1,12 +1,16 @@
 header {
     background-color: #EAC926;
 }
+
 p {
     font-family: "Roboto";
     font-size: 12px
 }
 section {
     font-family: "Roboto"
+}
+section#copyright p{
+    text-align: left
 }
 a {
     font-family: "Roboto";
@@ -38,26 +42,45 @@ footer {
     size: 2em
 }
 .burger-menu {
-    color: white; 
+    color: white;
     margin: auto;
-    width: 70px;
-    height: 70px;
-    font-size: 50px;
+    /* margin-bottom: 0.7em; */
+    width: 30px;
+    height: 30px;
+    font-size: 23px;
     padding: 5px;
     background-color: #1259c3;
     text-align: center;
-    border-radius: 5px;  
+    border-radius: 5px;
+    line-height: 30px
+}
+img{
+    display: block;
+    width: 96vw;
 }
 #banner {
-    background-size: 100vw auto;
+    width: 96vw;
+    background-image: url(./images/img-home-banner.jpg)
 }
-.fa-search{
-    background-size: 20px;
-    width: 23px;
-    font-size: 10px;
+#Buscador {
+    width: 300px;
     padding: 5px 5px 3px;
     margin-left: 0.8em;
+    font-size: 13px;
+    border-radius: 3px;
+    border: solid 1px black;   
+  }
+.fa-search{
+    width: 16px;
+    height: 16px;
+    font-size: 15px;
+    padding: 5px 5px 3px;
+    margin-left: 0.7em;
+    margin-top: 0.7em;
     background-color: white;
+    border-radius: 3px;
+    border: 0.4px solid #000000;
+    
 }
 .fa-hand-holding-usd{
     margin: auto;
@@ -66,9 +89,9 @@ footer {
     size: 50px;
 
 }
-#Buscador {
-    background-size: 24px;
-    width: 300px;
-    padding: 5px 5px 3px;
-    margin-left: 0.8em;
+
+  .fa-gift, .fa-user-shield,.fa-credit-card{
+      font-size: 2em;
+      margin-bottom: 10px;
+      color:#1259c3
   }
