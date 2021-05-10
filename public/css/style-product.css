@@ -1,0 +1,22 @@
+.create-form {
+    padding: 20px 15px;
+}
+.control-formulario {
+    margin-bottom: 15px
+}
+.control-formulario label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block
+}
+.control {
+    width: 100%;
+    padding: 3px;
+}
+.boton-formulario {
+    background-color: #1259c3;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 10px
+}
