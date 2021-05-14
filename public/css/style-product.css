@@ -1,22 +1,75 @@
-.create-form {
-    padding: 20px 15px;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.control-formulario {
-    margin-bottom: 15px
+.register-form, .login-form {
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px;
+    margin: auto;
+    padding-top: 55px;
+    margin-top: 128px; 
 }
-.control-formulario label {
+/* .login-form {
+    height: 833px;
+} */
+.control-form-register, .control-form-login {
+    margin-bottom: 15px;
+    width: 95%;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+.control-form-register label, .control-form-login label {
     margin-bottom: 5px;
-    font-style: italic;
-    display: block
+    display: block 
 }
-.control {
+.profile-div {
+    display: inline;
+    margin-bottom: 5px;
+}
+.control, .control-login {
     width: 100%;
-    padding: 3px;
+    padding: 6px;
+    border: solid 1px black;
+    border-radius: 7px;
+    margin-bottom: 5px;
 }
-.boton-formulario {
+.boton-formulario, .button-login {
     background-color: #1259c3;
     border: none;
     font-size: 20px;
     color: #fff;
     padding: 5px 10px
+}
+.control-form-register input[type="date"] {
+    background-color: white;
+    color: grey;
+}
+.control-form-register input[type="radio"] {
+    width: initial;
+    margin-right: 6px;
+    margin-right: 6px;
+    margin-left: 2px;
+}
+.control-form-register input[type="checkbox"] {
+    margin-right: 8px;
+}
+.control-form-register label.radio-class {
+    display: inline-block;
+}
+.buttons {
+    margin-top: 10px;
+}
+.boton-formulario, .button-login {
+    border-radius: 12px;
+    border: none;
+    padding: 7px 25px;
+}
+.boton-formulario {
+    margin-left: 10px;
 }
