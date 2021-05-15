@@ -44,7 +44,8 @@ h2 {
     border: none;
     font-size: 20px;
     color: #fff;
-    padding: 5px 10px
+    border-radius: 12px;
+    padding: 7px 25px;
 }
 .control-form-register input[type="date"] {
     background-color: white;
@@ -65,10 +66,8 @@ h2 {
 .buttons {
     margin-top: 10px;
 }
-.boton-formulario, .button-login {
-    border-radius: 12px;
-    border: none;
-    padding: 7px 25px;
+.button-login:hover {
+    background-color: #0022AA;
 }
 .boton-formulario {
     margin-left: 10px;
