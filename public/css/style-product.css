@@ -46,6 +46,7 @@ h2 {
     color: #fff;
     border-radius: 12px;
     padding: 7px 25px;
+    transition: all 1s;
 }
 .control-form-register input[type="date"] {
     background-color: white;

@@ -204,7 +204,8 @@ img{
 .fa-gift, .fa-user-shield,.fa-credit-card{
     font-size: 2em;
     margin-bottom: 10px;
-    color:#1259c3
+    color:#1259c3;
+    transition: all 1s
 }
 
 .ofertas,.ultima-visita {
