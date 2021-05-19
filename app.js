@@ -2,9 +2,10 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const publicPath = path.resolve(__dirname, 'public');
+const port = process.env.PORT || 3040
 
-app.listen(3040, () => {
-    console.log("Esta funcionando en puerto 3040!")
+app.listen(port, () => {
+    console.log(`Servidor corriendo en https://localhost:${port}`)
 });
 
 app.use(express.static(publicPath));
