@@ -73,3 +73,8 @@ h2 {
 .boton-formulario {
     margin-left: 10px;
 }
+.error-message {
+    float: right;
+    color:red;
+    font-weight: 600;
+}

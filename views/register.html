@@ -82,9 +82,9 @@
             </div>
             <div class="control-form-register">
                 <label>Perfil de Usuario:</label>
-                <input type="radio" name="profile" value="comprador" class="control">
+                <input type="radio" name="profile" value="comprador" id="comprador" class="control">
                 <label class="radio-class" for="comprador">Comprador</label>
-                <input type="radio" name="profile" value="vendedor" class="control">
+                <input type="radio" name="profile" value="vendedor" id="vendedor" class="control">
                 <label class="radio-class" for="vendedor">Vendedor</label>
                 
             </div>
@@ -107,6 +107,7 @@
             <div class="control-form-register">
                 <label for="password-confirmation">Confirmar contraseña:</label>
                 <input type="password" name="pasword-confirmation" id="password-confirmation" placeholder="Contraseña" class="control" required>
+                <span class="error-message">Las contraseñas no coinciden</span>
             </div>
             <div class="buttons">
                 <button type="submit" class="boton-formulario">Enviar</button>
