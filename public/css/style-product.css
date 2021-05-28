@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.register-form, .login-form {
+.register-form, .login-form, .create-form {
     padding: 40px 25px;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
 /* .login-form {
     height: 833px;
 } */
-.control-form-register, .control-form-login {
+.control-form-register, .control-form-login, .control-formulario{
     margin-bottom: 15px;
     width: 95%;
 }
@@ -24,7 +24,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-.control-form-register label, .control-form-login label {
+.control-form-register label, .control-form-login label, .control-formulario label {
     margin-bottom: 5px;
     display: block 
 }
