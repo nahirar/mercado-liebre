@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ('./partials/head.ejs') %>
+<body>
+    <%- include ('./partials/header.ejs') %>
+    <main>
+        <section class="users">
+            <form action="/user/<%= user.id %>?_method=PUT" method="POST">
+                <div class="input-container">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" required value="<%= user.name %>"/>
+                </div>
+                <div class="input-container">
+                    <label for="lastName">Apellido</label>
+                    <input type="text" name="lastName" id="lastName" required value="<%= user.lastName %>"/>
+                </div>
+                <div class="input-container">
+                    <label for="email">Usuario</label>
+                    <input type="text" name="email" id="email" required value="<%= user.email %>"/>
+                </div>
+                <div class="input-container">
+                    <label for="birthdate">Nacimiento</label>
+                    <input type="text" name="birthdate" id="birthdate" required value="<%= user.birthdate %>"/>
+                </div>
+                <div class="input-container">
+                    <label for="profile">Perfil</label>
+                    <input type="radio" name="profile" id="profile" value="comprador" <%= user.profile == 'comprador' ? 'checked' : '' %>  /> Si
+                    <input type="radio" name="profile" id="profile" value="vendedor" <%= user.profile == 'vendedor' ? 'checked' : '' %> /> No
+                </div>
+
+                <div class="input-container">
+                    <button type="submit">ENVIAR</button>
+                </div>
+
+            </form>  
+        </section>
+    </main>
+</body>
+</html>

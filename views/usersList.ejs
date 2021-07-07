@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ('./partials/head.ejs') %>
+<body>
+    <%- include ('./partials/header.ejs') %>
+    <main>
+        <section class="users">
+            <h2>Lista de usuarios</h2>
+                <% usersList.forEach((user) => { %>
+                <ul>
+                    <li><a href="/user/detail/<%= user.id %>"><%= user.name %> <%= user.lastName %></a>
+                    <div class="user-actions">
+                        <a href="/user/<%= user.id %>/edit">
+                            <button>Edit</button>
+                        </a>
+                        <form action="/user/<%= user.id %>?_method=DELETE" method="POST">
+                            <button type="submit">Delete</button>
+                        </form>
+                    </div>
+                    </li>
+                </ul>
+                <% }) %>    
+        </section>
+    </main>
+</body>
+</html>

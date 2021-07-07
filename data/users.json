@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Nahir",
+    "lastName": "Arrejoria",
+    "email": "arrejoria@gmail.com",
+    "password": "hola1",
+    "profile": "comprador",
+    "image": "/images/avatars/1623112692512_img_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "andre",
+    "lastName": "uzcate",
+    "birthdate": "1983-04-18",
+    "email": "uzcate@gmail.com",
+    "password": "contra1",
+    "profile": "comprador"
+  }
+]
